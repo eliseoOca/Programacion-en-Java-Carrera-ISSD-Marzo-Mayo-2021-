@@ -1,0 +1,1097 @@
+*** ENVIRONMENT CRASH ***
+
+Date: abr. 5 2021 11:42
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: oct. 7 2003 14:57
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Create File (W1) - Name: C:\Users\Ulises\Desktop\programacion issd\Desempeo9.java - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+    Open File (1) - Window: 1c0544 - Name: C:\Users\Ulises\Desktop\programacion issd\Desempeo9.java
+    Set New Text (1) - Text: 25da0c8 - size: 340
+    Set New Text (2) - sz:20:320 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+    Open File (2) - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 1c0544 - Ex: 1 - Args: 0 - Step: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Don't compile Console.java - Console.java older than Console.class
+    Don't compile ConsoleParent.java - ConsoleParent.java older than ConsoleParent.class
+    Don't compile FatalError.java - FatalError.java older than FatalError.class
+    Don't compile CloseableDialog.java - CloseableDialog.java older than CloseableDialog.class
+    Don't compile Message.java - Message.java older than Message.class
+    Don't compile ConsoleCanvas.java - ConsoleCanvas.java older than ConsoleCanvas.class
+    Don't compile SavePrint.java - SavePrint.java older than SavePrint.class
+    Don't compile SavePrint$Message.java - No SavePrint$Message.java
+    Don't compile SavePrint$Status.java - No SavePrint$Status.java
+    Don't compile DrawGraphics.java - DrawGraphics.java older than DrawGraphics.class
+    Don't compile ConsoleFrame.java - ConsoleFrame.java older than ConsoleFrame.class
+    Don't compile ConsoleEdges.java - ConsoleEdges.java older than ConsoleEdges.class
+    Don't compile ConsoleCanvasGraphics.java - ConsoleCanvasGraphics.java older than ConsoleCanvasGraphics.class
+    Jikes compiling desempeo9
+    Command to Java Supervisor - "-java "C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll" -cp ".;C:\Program Files (x86)\Ready to Program\Support\Ready Classes;C:\Program Files (x86)\Ready to Program\Support\Classes;C:\Program Files (x86)\Ready to Program\Support\Ready Classes\tools.jar;" -class desempeo9 -props F 25 80 10 "Courier New" 2 F 0 F 8 8 0 F T"
+    JavaSup: -pipe 568 580 496 1639806
+    JavaSup: JVM Option: "-Djava.class.path=.;C:\Program Files (x86)\Ready to Program\Support\Ready Classes;C:\Program Files (x86)\Ready to Program\Support\Classes;C:\Program Files (x86)\Ready to Program\Support\Ready Classes\tools.jar;"
+    JavaSup: JVM Option: "-Djava.library.path=C:\Program Files (x86)\Ready to Program\Support\Bin"
+    JavaSup: JVM Option: "-enableassertions"
+    JavaSup: JVM Option: "-Xdebug"
+    JavaSup: JVM Option: "-Xrunjdwp:transport=dt_shmem,address=readyshmem,server=y,suspend=n"
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 1c0544 - Ex: 1 - Args: 0 - Step: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Don't compile Console.java - Console.java older than Console.class
+    Don't compile ConsoleParent.java - ConsoleParent.java older than ConsoleParent.class
+    Don't compile FatalError.java - FatalError.java older than FatalError.class
+    Don't compile CloseableDialog.java - CloseableDialog.java older than CloseableDialog.class
+    Don't compile Message.java - Message.java older than Message.class
+    Don't compile ConsoleCanvas.java - ConsoleCanvas.java older than ConsoleCanvas.class
+    Don't compile SavePrint.java - SavePrint.java older than SavePrint.class
+    Don't compile SavePrint$Message.java - No SavePrint$Message.java
+    Don't compile SavePrint$Status.java - No SavePrint$Status.java
+    Don't compile DrawGraphics.java - DrawGraphics.java older than DrawGraphics.class
+    Don't compile ConsoleFrame.java - ConsoleFrame.java older than ConsoleFrame.class
+    Don't compile ConsoleEdges.java - ConsoleEdges.java older than ConsoleEdges.class
+    Don't compile ConsoleCanvasGraphics.java - ConsoleCanvasGraphics.java older than ConsoleCanvasGraphics.class
+    Jikes compiling desempeo9
+    Command to Java Supervisor - "-java "C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll" -cp ".;C:\Program Files (x86)\Ready to Program\Support\Ready Classes;C:\Program Files (x86)\Ready to Program\Support\Classes;C:\Program Files (x86)\Ready to Program\Support\Ready Classes\tools.jar;" -class desempeo9 -props F 25 80 10 "Courier New" 2 F 0 F 8 8 0 F T"
+    JavaSup: -pipe 568 580 496 1639806
+    JavaSup: JVM Option: "-Djava.class.path=.;C:\Program Files (x86)\Ready to Program\Support\Ready Classes;C:\Program Files (x86)\Ready to Program\Support\Classes;C:\Program Files (x86)\Ready to Program\Support\Ready Classes\tools.jar;"
+    JavaSup: JVM Option: "-Djava.library.path=C:\Program Files (x86)\Ready to Program\Support\Bin"
+    JavaSup: JVM Option: "-enableassertions"
+    JavaSup: JVM Option: "-Xdebug"
+    JavaSup: JVM Option: "-Xrunjdwp:transport=dt_shmem,address=readyshmem,server=y,suspend=n"
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25da0c8 - L: 1 - C: 8
+    Text - sz:20:320 - slFr:0:0:0 - slTo:0:0:0 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+    Set Selection (2) - sz:20:320 - slFr:28 - slTo:28 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+    Extend Selection - Text: 25da0c8 - L: 1 - C: 8 (x1)
+    Text - sz:20:320 - slFr:1:8:28 - slTo:1:8:28 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25da0c8 - L: 1 - C: 8 (x1)
+    Text - sz:20:320 - slFr:28 - slTo:28 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+  CMD: WM_CHAR [#8] (D)
+    Keystroke - Text: 25da0c8 - ch: 8
+    Text - sz:20:320 - slFr:28 - slTo:28 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+    Keystroke (2) - sz:20:319 - slFr:27 - slTo:27 - nlA:0
+    Line Starts: 17:264 18:311 19:314 20:319
+  CMD: WM_CHAR [D] (D) (x1) [D]
+    Keystroke - Text: 25da0c8 - ch: 68
+    Text - sz:20:319 - slFr:1:7:27 - slTo:1:7:27 - nlA:0
+    Line Starts: 17:264 18:311 19:314 20:319
+    Keystroke (2) - sz:20:320 - slFr:28 - slTo:28 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+  CMD: WM_LBUTTONDOWN (D)
+    Set Selection (1) - Text: 25da0c8 - L: 1 - C: 18
+    Text - sz:20:320 - slFr:1:8:28 - slTo:1:8:28 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+    Set Selection (2) - sz:20:320 - slFr:38 - slTo:38 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+  CMD: WM_LBUTTONUP (D)
+    Extend Selection - Text: 25da0c8 - L: 1 - C: 18 (x1)
+    Text - sz:20:320 - slFr:1:18:38 - slTo:1:18:38 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_INITMENU (W)
+  CMD: COMMAND_SAVE_FILE
+    Save File (1) - Window: 1c0544 - SaveAs: 0 - Sel: 0 - fileno: 0 - sizeptr: 0
+    Save File (2) - name: C:\Users\Ulises\Desktop\programacion issd\Desempeo9.java - fileno: 0 - sizeptr: 0
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 1c0544 - Ex: 1 - Args: 0 - Step: 0
+    Don't compile Console.java - Console.java older than Console.class
+    Don't compile ConsoleParent.java - ConsoleParent.java older than ConsoleParent.class
+    Don't compile FatalError.java - FatalError.java older than FatalError.class
+    Don't compile CloseableDialog.java - CloseableDialog.java older than CloseableDialog.class
+    Don't compile Message.java - Message.java older than Message.class
+    Don't compile ConsoleCanvas.java - ConsoleCanvas.java older than ConsoleCanvas.class
+    Don't compile SavePrint.java - SavePrint.java older than SavePrint.class
+    Don't compile SavePrint$Message.java - No SavePrint$Message.java
+    Don't compile SavePrint$Status.java - No SavePrint$Status.java
+    Don't compile DrawGraphics.java - DrawGraphics.java older than DrawGraphics.class
+    Don't compile ConsoleFrame.java - ConsoleFrame.java older than ConsoleFrame.class
+    Don't compile ConsoleEdges.java - ConsoleEdges.java older than ConsoleEdges.class
+    Don't compile ConsoleCanvasGraphics.java - ConsoleCanvasGraphics.java older than ConsoleCanvasGraphics.class
+    Jikes compiling Desempeo9
+
+
+Registers
+  EAX=00000000  EBX=00408A15  ECX=00000000  EDX=0019A538  ESI=0019A60C
+  EDI=0019A560  EBP=0019A4EC  ESP=0019A4E8  EIP=004C58C1  FLG=00010246
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Program Files (x86)\Ready to Program\Ready.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\System32\KERNEL32.DLL
+    C:\Windows\System32\KERNELBASE.dll
+    C:\Windows\System32\USER32.dll
+    C:\Windows\System32\win32u.dll
+    C:\Windows\System32\GDI32.dll
+    C:\Windows\System32\gdi32full.dll
+    C:\Windows\System32\msvcp_win.dll
+    C:\Windows\System32\ucrtbase.dll
+    C:\Windows\System32\comdlg32.dll
+    C:\Windows\System32\msvcrt.dll
+    C:\Windows\System32\combase.dll
+    C:\Windows\System32\RPCRT4.dll
+    C:\Windows\System32\shcore.dll
+    C:\Windows\System32\SHLWAPI.dll
+    C:\Windows\System32\SHELL32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.844_none_89e26e970b35ab92\COMCTL32.dll
+    C:\Windows\System32\ADVAPI32.dll
+    C:\Windows\System32\sechost.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\System32\IMM32.DLL
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\System32\MSCTF.dll
+    C:\Windows\System32\OLEAUT32.dll
+    C:\Program Files (x86)\Ready to Program\Support\Bin\edjdll.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\System32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\textinputframework.dll
+    C:\Windows\System32\CoreUIComponents.dll
+    C:\Windows\System32\CoreMessaging.dll
+    C:\Windows\System32\WS2_32.dll
+    C:\Windows\SYSTEM32\ntmarta.dll
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+    C:\Windows\SYSTEM32\TextShaping.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_11adecdf30011423\comctl32.DLL
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\net.dll
+    C:\Windows\system32\napinsp.dll
+    C:\Windows\system32\pnrpnsp.dll
+    C:\Windows\system32\wshbth.dll
+    C:\Windows\system32\NLAapi.dll
+    C:\Windows\SYSTEM32\IPHLPAPI.DLL
+    C:\Windows\System32\mswsock.dll
+    C:\Windows\SYSTEM32\DNSAPI.dll
+    C:\Windows\System32\NSI.dll
+    C:\Windows\System32\winrnr.dll
+    C:\Windows\System32\fwpuclnt.dll
+    C:\Windows\System32\bcrypt.dll
+    C:\Windows\System32\rasadhlp.dll
+    C:\Windows\System32\ole32.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:004c58c1 Ret=004c58a0 Frame=0019a4ec Stack=0019a4e8
+    Parameters (0x0019a538 0x00000000 0x0000005c 0x00000003)
+    src_jikes\error.cpp, PrintFile (), Line 0813+0005 byte(s)
+  1 .V PC=0023:004c58a0 Ret=004c55df Frame=0019a508 Stack=0019a4f4
+    Parameters (0x079b208c 0x0019a538 0x00000033 0x0000005c)
+    src_jikes\error.cpp, FormatFile (), Line 0845+0030 byte(s)
+  2 .V PC=0023:004c55df Ret=004c5ad3 Frame=0019a56c Stack=0019a510
+    Parameters (0x079b208c 0x0019a60c 0xcccccccc 0x07ade788)
+    src_jikes\error.cpp, SemanticError::FormatError (), Line 0922+0036 byte(s)
+  3 .V PC=0023:004c5ad3 Ret=004c5437 Frame=0019a584 Stack=0019a574
+    Parameters (0x00000000 0x0019a604 0xcccccccc 0x00607540)
+    src_jikes\error.cpp, SemanticError::reportError (), Line 0954+0000 byte(s)
+  4 .V PC=0023:004c5437 Ret=004c39ae Frame=0019a5cc Stack=0019a58c
+    Parameters (0x0019a6d0 0xcccccccc 0xcccccccc 0xcccccccc)
+    src_jikes\error.cpp, SemanticError::PrintMessages (), Line 0772+0000 byte(s)
+  5 .V PC=0023:004c39ae Ret=0049463c Frame=0019a610 Stack=0019a5d4
+    Parameters (0x077a48d8 0x07be26b8 0x0019a6dc 0x004943d3)
+    src_jikes\error.cpp, Semantic::PrintMessages (), Line 0048+0038 byte(s)
+  6 .V PC=0023:0049463c Ret=004943d3 Frame=0019a620 Stack=0019a618
+    Parameters (0x079f26a8 0x0019a858 0x0019a8b0 0xcccccccc)
+    src_jikes\control.cpp, Control::CleanUp (), Line 1516+0000 byte(s)
+  7 .V PC=0023:004943d3 Ret=00493864 Frame=0019a6dc Stack=0019a628
+    Parameters (0x09c0e9d0 0x077a48d8 0x00000000 0x0019a864)
+    src_jikes\control.cpp, Control::ProcessBodies (), Line 1437+0000 byte(s)
+  8 .V PC=0023:00493864 Ret=00491a91 Frame=0019a6f0 Stack=0019a6e4
+    Parameters (0x079f26a8 0x0019d940 0x0019a8b0 0xcccccccc)
+    src_jikes\control.cpp, Control::ProcessFile (), Line 1133+0000 byte(s)
+  9 .V PC=0023:00491a91 Ret=004eb449 Frame=0019a864 Stack=0019a6f8
+    Parameters (0x09bfdd60 0x07be3d38 0xcccccccc 0xcccccccc)
+    src_jikes\control.cpp, Control::Control (), Line 0289+0000 byte(s)
+ 10 .V PC=0023:004eb449 Ret=00420c6e Frame=0019a8a4 Stack=0019a86c
+    Parameters (0x09bfdd60 0x001c0544 0xcccccccc 0x09bfd8c8)
+    src_jikes\jikesapi.cpp, JikesAPI::compile (), Line 0213+0048 byte(s)
+ 11 .V PC=0023:00420c6e Ret=00430e8f Frame=0019a8d0 Stack=0019a8ac
+    Parameters (0x00000009 0x0019acfc 0x0019dda4 0xcccccccc)
+    src\edjikes.cpp, EdJikes_Compile (), Line 0226+0017 byte(s)
+ 12 .V PC=0023:00430e8f Ret=0040867f Frame=0019d940 Stack=0019a8d8
+    Parameters (0x001c0544 0x025d9990 0x00000000 0xcccccccc)
+    src\edrun.c, EdRun_Compile (), Line 0701+0014 byte(s)
+ 13 .V PC=0023:0040867f Ret=0040b0eb Frame=0019d964 Stack=0019d948
+    Parameters (0x001c0544 0x00000001 0x00000000 0x00000000)
+    src\eddisp.c, EdDisp_Run (), Line 1730+0023 byte(s)
+ 14 .V PC=0023:0040b0eb Ret=004090f1 Frame=0019dda4 Stack=0019d96c
+    Parameters (0x001c0544 0x00000579 0x00000111 0x001c0544)
+    src\eddisp.c, MyCommandHandler (), Line 3288+0015 byte(s)
+ 15 .V PC=0023:004090f1 Ret=00408a70 Frame=0019de04 Stack=0019ddac
+    Parameters (0x001c0544 0x00000111 0x00000579 0x00000001)
+    src\eddisp.c, MyCommonMessageHandler (), Line 3487+0019 byte(s)
+ 16 .V PC=0023:00408a70 Ret=7701ef5b Frame=0019de2c Stack=0019de0c
+    Parameters (0x001c0544 0x00000111 0x00000579 0x00000001)
+    src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1962+0025 byte(s)
+ 17 .V PC=0023:7701ef5b Ret=77015eca Frame=0019de58 Stack=0019de34
+    Parameters (0x00408a15 0x001c0544 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 18 .V PC=0023:77015eca Ret=770152a9 Frame=0019df3c Stack=0019de60
+    Parameters (0x00408a15 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 19 .V PC=0023:770152a9 Ret=770021d9 Frame=0019dfa0 Stack=0019df44
+    Parameters (0x010b02c0 0x00000000 0x00000001 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 20 .V PC=0023:770021d9 Ret=004488da Frame=0019dfbc Stack=0019dfa8
+    Parameters (0x001c0544 0x00000111 0x00000579 0x00000001)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 21 .V PC=0023:004488da Ret=7701ef5b Frame=0019dff4 Stack=0019dfc4
+    Parameters (0x0019057e 0x00000111 0x00000579 0x001a058e)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1454+0032 byte(s)
+ 22 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e020 Stack=0019dffc
+    Parameters (0x00448681 0x0019057e 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 23 .V PC=0023:77015eca Ret=770152a9 Frame=0019e104 Stack=0019e028
+    Parameters (0x00448681 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 24 .V PC=0023:770152a9 Ret=770021d9 Frame=0019e168 Stack=0019e10c
+    Parameters (0x010a39e0 0x00000000 0x001a058e 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 25 .V PC=0023:770021d9 Ret=00403c69 Frame=0019e184 Stack=0019e170
+    Parameters (0x0019057e 0x00000111 0x00000579 0x001a058e)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 26 .V PC=0023:00403c69 Ret=7701ef5b Frame=0019e20c Stack=0019e18c
+    Parameters (0x00150532 0x00000111 0x00000579 0x001a058e)
+    src\edbbar.c, MyButtonBarWindowProcedure (), Line 0579+0041 byte(s)
+ 27 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e238 Stack=0019e214
+    Parameters (0x00403aa5 0x00150532 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 28 .V PC=0023:77015eca Ret=770152a9 Frame=0019e31c Stack=0019e240
+    Parameters (0x00403aa5 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 29 .V PC=0023:770152a9 Ret=770138ef Frame=0019e380 Stack=0019e324
+    Parameters (0x010a1880 0x00000000 0x001a058e 0x00000000)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 30 .V PC=0023:770138ef Ret=7703836b Frame=0019e3a4 Stack=0019e388
+    Parameters (0x00150532 0x00000111 0x00000579 0x001a058e)
+    Unknown module, SendMessageW() + 0111 byte(s)
+ 31 .V PC=0023:7703836b Ret=77038070 Frame=0019e3c8 Stack=0019e3ac
+    Parameters (0x010a72d0 0x00000000 0x00000000 0x007cabe0)
+    Unknown module, LoadCursorFromFileW() + 7675 byte(s)
+ 32 .V PC=0023:77038070 Ret=77037578 Frame=0019e3f0 Stack=0019e3d0
+    Parameters (0x007cabe0 0x00000000 0x010a72d0 0x00000202)
+    Unknown module, LoadCursorFromFileW() + 6912 byte(s)
+ 33 .V PC=0023:77037578 Ret=77036a12 Frame=0019e490 Stack=0019e3f8
+    Parameters (0x010a72d0 0x00000000 0x00000202 0x00000000)
+    Unknown module, LoadCursorFromFileW() + 4104 byte(s)
+ 34 .V PC=0023:77036a12 Ret=7701ef5b Frame=0019e4bc Stack=0019e498
+    Parameters (0x001a058e 0x00000202 0x00000000 0x00100021)
+    Unknown module, LoadCursorFromFileW() + 1186 byte(s)
+ 35 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e4e8 Stack=0019e4c4
+    Parameters (0x770369c0 0x001a058e 0x00000202 0x00000000)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 36 .V PC=0023:77015eca Ret=77013c3a Frame=0019e5cc Stack=0019e4f0
+    Parameters (0xb008c930 0x00007ff9 0x00000202 0x00000000)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 37 .V PC=0023:77013c3a Ret=77005d80 Frame=0019e640 Stack=0019e5d4
+    Parameters (0x0019e658 0x00403225 0x0019e668 0x0019e664)
+    Unknown module, DispatchMessageW() + 0586 byte(s)
+ 38 .V PC=0023:77005d80 Ret=00403225 Frame=0019e648 Stack=0019e648
+    Parameters (0x0019e668 0x0019e664 0x0019e688 0x00403190)
+    Unknown module, DispatchMessageA() + 0016 byte(s)
+ 39 .V PC=0023:00403225 Ret=00403190 Frame=0019e658 Stack=0019e650
+    Parameters (0x0019e668 0x0019e690 0x001a058e 0x00000202)
+    src\ed.c, MyProcessMessage (), Line 1848+0012 byte(s)
+ 40 .V PC=0023:00403190 Ret=0040170f Frame=0019e688 Stack=0019e660
+    Parameters (0x0052cb00 0x0052cb00 0xcccccccc 0xcccccccc)
+    src\ed.c, MyProcessEvents (), Line 1818+0009 byte(s)
+ 41 .V PC=0023:0040170f Ret=0052cc26 Frame=0019fee0 Stack=0019e690
+    Parameters (0x00400000 0x00000000 0x007836b4 0x00000001)
+    src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 42 .V PC=0023:0052cc26 Ret=7642fa29 Frame=0019ff70 Stack=0019fee8
+    Parameters (0x002be000 0x7642fa10 0x0019ffdc 0x77b07c7e)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 43 .V PC=0023:7642fa29 Ret=77b07c7e Frame=0019ff80 Stack=0019ff78
+    Parameters (0x002be000 0xf6d83783 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0025 byte(s)
+ 44 .V PC=0023:77b07c7e Ret=77b07*** ENVIRONMENT CRASH ***
+
+Date: abr. 5 2021 11:42
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: oct. 7 2003 14:57
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Create File (W1) - Name: C:\Users\Ulises\Desktop\programacion issd\Desempeo9.java - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+    Open File (1) - Window: 18056c - Name: C:\Users\Ulises\Desktop\programacion issd\Desempeo9.java
+    Set New Text (1) - Text: 262a0c8 - size: 340
+    Set New Text (2) - sz:20:320 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+    Open File (2) - fileno: 0 - sizeptr: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 18056c - Ex: 1 - Args: 0 - Step: 0
+    Don't compile Console.java - Console.java older than Console.class
+    Don't compile ConsoleParent.java - ConsoleParent.java older than ConsoleParent.class
+    Don't compile FatalError.java - FatalError.java older than FatalError.class
+    Don't compile CloseableDialog.java - CloseableDialog.java older than CloseableDialog.class
+    Don't compile Message.java - Message.java older than Message.class
+    Don't compile ConsoleCanvas.java - ConsoleCanvas.java older than ConsoleCanvas.class
+    Don't compile SavePrint.java - SavePrint.java older than SavePrint.class
+    Don't compile SavePrint$Message.java - No SavePrint$Message.java
+    Don't compile SavePrint$Status.java - No SavePrint$Status.java
+    Don't compile DrawGraphics.java - DrawGraphics.java older than DrawGraphics.class
+    Don't compile ConsoleFrame.java - ConsoleFrame.java older than ConsoleFrame.class
+    Don't compile ConsoleEdges.java - ConsoleEdges.java older than ConsoleEdges.class
+    Don't compile ConsoleCanvasGraphics.java - ConsoleCanvasGraphics.java older than ConsoleCanvasGraphics.class
+    Jikes compiling Desempeo9
+
+
+Registers
+  EAX=00000000  EBX=00408A15  ECX=00000000  EDX=0019A538  ESI=0019A60C
+  EDI=0019A560  EBP=0019A4EC  ESP=0019A4E8  EIP=004C58C1  FLG=00010246
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Program Files (x86)\Ready to Program\Ready.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\System32\KERNEL32.DLL
+    C:\Windows\System32\KERNELBASE.dll
+    C:\Windows\System32\USER32.dll
+    C:\Windows\System32\win32u.dll
+    C:\Windows\System32\GDI32.dll
+    C:\Windows\System32\gdi32full.dll
+    C:\Windows\System32\msvcp_win.dll
+    C:\Windows\System32\ucrtbase.dll
+    C:\Windows\System32\comdlg32.dll
+    C:\Windows\System32\msvcrt.dll
+    C:\Windows\System32\combase.dll
+    C:\Windows\System32\RPCRT4.dll
+    C:\Windows\System32\shcore.dll
+    C:\Windows\System32\SHLWAPI.dll
+    C:\Windows\System32\SHELL32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.844_none_89e26e970b35ab92\COMCTL32.dll
+    C:\Windows\System32\ADVAPI32.dll
+    C:\Windows\System32\sechost.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\System32\IMM32.DLL
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\System32\MSCTF.dll
+    C:\Windows\System32\OLEAUT32.dll
+    C:\Program Files (x86)\Ready to Program\Support\Bin\edjdll.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\System32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\textinputframework.dll
+    C:\Windows\System32\CoreUIComponents.dll
+    C:\Windows\System32\CoreMessaging.dll
+    C:\Windows\System32\WS2_32.dll
+    C:\Windows\SYSTEM32\ntmarta.dll
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\TextShaping.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_11adecdf30011423\comctl32.DLL
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\net.dll
+    C:\Windows\system32\napinsp.dll
+    C:\Windows\system32\pnrpnsp.dll
+    C:\Windows\system32\wshbth.dll
+    C:\Windows\system32\NLAapi.dll
+    C:\Windows\SYSTEM32\IPHLPAPI.DLL
+    C:\Windows\System32\mswsock.dll
+    C:\Windows\SYSTEM32\DNSAPI.dll
+    C:\Windows\System32\NSI.dll
+    C:\Windows\System32\winrnr.dll
+    C:\Windows\System32\fwpuclnt.dll
+    C:\Windows\System32\bcrypt.dll
+    C:\Windows\System32\rasadhlp.dll
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:004c58c1 Ret=004c58a0 Frame=0019a4ec Stack=0019a4e8
+    Parameters (0x0019a538 0x00000000 0x0000005c 0x00000003)
+    src_jikes\error.cpp, PrintFile (), Line 0813+0005 byte(s)
+  1 .V PC=0023:004c58a0 Ret=004c55df Frame=0019a508 Stack=0019a4f4
+    Parameters (0x02649e84 0x0019a538 0x00000033 0x0000005c)
+    src_jikes\error.cpp, FormatFile (), Line 0845+0030 byte(s)
+  2 .V PC=0023:004c55df Ret=004c5ad3 Frame=0019a56c Stack=0019a510
+    Parameters (0x02649e84 0x0019a60c 0xcccccccc 0x09b9af98)
+    src_jikes\error.cpp, SemanticError::FormatError (), Line 0922+0036 byte(s)
+  3 .V PC=0023:004c5ad3 Ret=004c5437 Frame=0019a584 Stack=0019a574
+    Parameters (0x00000000 0x0019a604 0xcccccccc 0x00607540)
+    src_jikes\error.cpp, SemanticError::reportError (), Line 0954+0000 byte(s)
+  4 .V PC=0023:004c5437 Ret=004c39ae Frame=0019a5cc Stack=0019a58c
+    Parameters (0x0019a6d0 0xcccccccc 0xcccccccc 0xcccccccc)
+    src_jikes\error.cpp, SemanticError::PrintMessages (), Line 0772+0000 byte(s)
+  5 .V PC=0023:004c39ae Ret=0049463c Frame=0019a610 Stack=0019a5d4
+    Parameters (0x0262cae8 0x02649318 0x0019a6dc 0x004943d3)
+    src_jikes\error.cpp, Semantic::PrintMessages (), Line 0048+0038 byte(s)
+  6 .V PC=0023:0049463c Ret=004943d3 Frame=0019a620 Stack=0019a618
+    Parameters (0x07b8ec78 0x0019a858 0x0019a8b0 0xcccccccc)
+    src_jikes\control.cpp, Control::CleanUp (), Line 1516+0000 byte(s)
+  7 .V PC=0023:004943d3 Ret=00493864 Frame=0019a6dc Stack=0019a628
+    Parameters (0x02648538 0x0262cae8 0x00000000 0x0019a864)
+    src_jikes\control.cpp, Control::ProcessBodies (), Line 1437+0000 byte(s)
+  8 .V PC=0023:00493864 Ret=00491a91 Frame=0019a6f0 Stack=0019a6e4
+    Parameters (0x07b8ec78 0x0019d940 0x0019a8b0 0xcccccccc)
+    src_jikes\control.cpp, Control::ProcessFile (), Line 1133+0000 byte(s)
+  9 .V PC=0023:00491a91 Ret=004eb449 Frame=0019a864 Stack=0019a6f8
+    Parameters (0x0262ca88 0x02628c58 0xcccccccc 0xcccccccc)
+    src_jikes\control.cpp, Control::Control (), Line 0289+0000 byte(s)
+ 10 .V PC=0023:004eb449 Ret=00420c6e Frame=0019a8a4 Stack=0019a86c
+    Parameters (0x0262ca88 0x0018056c 0xcccccccc 0x02629e00)
+    src_jikes\jikesapi.cpp, JikesAPI::compile (), Line 0213+0048 byte(s)
+ 11 .V PC=0023:00420c6e Ret=00430e8f Frame=0019a8d0 Stack=0019a8ac
+    Parameters (0x00000009 0x0019acfc 0x0019dda4 0xcccccccc)
+    src\edjikes.cpp, EdJikes_Compile (), Line 0226+0017 byte(s)
+ 12 .V PC=0023:00430e8f Ret=0040867f Frame=0019d940 Stack=0019a8d8
+    Parameters (0x0018056c 0x02629ac8 0x00000000 0xcccccccc)
+    src\edrun.c, EdRun_Compile (), Line 0701+0014 byte(s)
+ 13 .V PC=0023:0040867f Ret=0040b0eb Frame=0019d964 Stack=0019d948
+    Parameters (0x0018056c 0x00000001 0x00000000 0x00000000)
+    src\eddisp.c, EdDisp_Run (), Line 1730+0023 byte(s)
+ 14 .V PC=0023:0040b0eb Ret=004090f1 Frame=0019dda4 Stack=0019d96c
+    Parameters (0x0018056c 0x00000579 0x00000111 0x0018056c)
+    src\eddisp.c, MyCommandHandler (), Line 3288+0015 byte(s)
+ 15 .V PC=0023:004090f1 Ret=00408a70 Frame=0019de04 Stack=0019ddac
+    Parameters (0x0018056c 0x00000111 0x00000579 0x00000001)
+    src\eddisp.c, MyCommonMessageHandler (), Line 3487+0019 byte(s)
+ 16 .V PC=0023:00408a70 Ret=7701ef5b Frame=0019de2c Stack=0019de0c
+    Parameters (0x0018056c 0x00000111 0x00000579 0x00000001)
+    src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1962+0025 byte(s)
+ 17 .V PC=0023:7701ef5b Ret=77015eca Frame=0019de58 Stack=0019de34
+    Parameters (0x00408a15 0x0018056c 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 18 .V PC=0023:77015eca Ret=770152a9 Frame=0019df3c Stack=0019de60
+    Parameters (0x00408a15 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 19 .V PC=0023:770152a9 Ret=770021d9 Frame=0019dfa0 Stack=0019df44
+    Parameters (0x010af9b0 0x00000000 0x00000001 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 20 .V PC=0023:770021d9 Ret=004488da Frame=0019dfbc Stack=0019dfa8
+    Parameters (0x0018056c 0x00000111 0x00000579 0x00000001)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 21 .V PC=0023:004488da Ret=7701ef5b Frame=0019dff4 Stack=0019dfc4
+    Parameters (0x00160532 0x00000111 0x00000579 0x000a0566)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1454+0032 byte(s)
+ 22 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e020 Stack=0019dffc
+    Parameters (0x00448681 0x00160532 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 23 .V PC=0023:77015eca Ret=770152a9 Frame=0019e104 Stack=0019e028
+    Parameters (0x00448681 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 24 .V PC=0023:770152a9 Ret=770021d9 Frame=0019e168 Stack=0019e10c
+    Parameters (0x010a3890 0x00000000 0x000a0566 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 25 .V PC=0023:770021d9 Ret=00403c69 Frame=0019e184 Stack=0019e170
+    Parameters (0x00160532 0x00000111 0x00000579 0x000a0566)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 26 .V PC=0023:00403c69 Ret=7701ef5b Frame=0019e20c Stack=0019e18c
+    Parameters (0x0019055a 0x00000111 0x00000579 0x000a0566)
+    src\edbbar.c, MyButtonBarWindowProcedure (), Line 0579+0041 byte(s)
+ 27 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e238 Stack=0019e214
+    Parameters (0x00403aa5 0x0019055a 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 28 .V PC=0023:77015eca Ret=770152a9 Frame=0019e31c Stack=0019e240
+    Parameters (0x00403aa5 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 29 .V PC=0023:770152a9 Ret=770138ef Frame=0019e380 Stack=0019e324
+    Parameters (0x010ab980 0x00000000 0x000a0566 0x00000000)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 30 .V PC=0023:770138ef Ret=7703836b Frame=0019e3a4 Stack=0019e388
+    Parameters (0x0019055a 0x00000111 0x00000579 0x000a0566)
+    Unknown module, SendMessageW() + 0111 byte(s)
+ 31 .V PC=0023:7703836b Ret=77038070 Frame=0019e3c8 Stack=0019e3ac
+    Parameters (0x010a9130 0x00000000 0x00000000 0x008e8f60)
+    Unknown module, LoadCursorFromFileW() + 7675 byte(s)
+ 32 .V PC=0023:77038070 Ret=77037578 Frame=0019e3f0 Stack=0019e3d0
+    Parameters (0x008e8f60 0x00000000 0x010a9130 0x00000202)
+    Unknown module, LoadCursorFromFileW() + 6912 byte(s)
+ 33 .V PC=0023:77037578 Ret=77036a12 Frame=0019e490 Stack=0019e3f8
+    Parameters (0x010a9130 0x00000000 0x00000202 0x00000000)
+    Unknown module, LoadCursorFromFileW() + 4104 byte(s)
+ 34 .V PC=0023:77036a12 Ret=7701ef5b Frame=0019e4bc Stack=0019e498
+    Parameters (0x000a0566 0x00000202 0x00000000 0x000d0018)
+    Unknown module, LoadCursorFromFileW() + 1186 byte(s)
+ 35 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e4e8 Stack=0019e4c4
+    Parameters (0x770369c0 0x000a0566 0x00000202 0x00000000)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 36 .V PC=0023:77015eca Ret=77013c3a Frame=0019e5cc Stack=0019e4f0
+    Parameters (0xb008c930 0x00007ff9 0x00000202 0x00000000)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 37 .V PC=0023:77013c3a Ret=77005d80 Frame=0019e640 Stack=0019e5d4
+    Parameters (0x0019e658 0x00403225 0x0019e668 0x0019e664)
+    Unknown module, DispatchMessageW() + 0586 byte(s)
+ 38 .V PC=0023:77005d80 Ret=00403225 Frame=0019e648 Stack=0019e648
+    Parameters (0x0019e668 0x0019e664 0x0019e688 0x00403190)
+    Unknown module, DispatchMessageA() + 0016 byte(s)
+ 39 .V PC=0023:00403225 Ret=00403190 Frame=0019e658 Stack=0019e650
+    Parameters (0x0019e668 0x0019e690 0x000a0566 0x00000202)
+    src\ed.c, MyProcessMessage (), Line 1848+0012 byte(s)
+ 40 .V PC=0023:00403190 Ret=0040170f Frame=0019e688 Stack=0019e660
+    Parameters (0x0052cb00 0x0052cb00 0xcccccccc 0xcccccccc)
+    src\ed.c, MyProcessEvents (), Line 1818+0009 byte(s)
+ 41 .V PC=0023:0040170f Ret=0052cc26 Frame=0019fee0 Stack=0019e690
+    Parameters (0x00400000 0x00000000 0x008a36b4 0x00000001)
+    src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 42 .V PC=0023:0052cc26 Ret=7642fa29 Frame=0019ff70 Stack=0019fee8
+    Parameters (0x0023f000 0x7642fa10 0x0019ffdc 0x77b07c7e)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 43 .V PC=0023:7642fa29 Ret=77b07c7e Frame=0019ff80 Stack=0019ff78
+    Parameters (0x0023f000 0x3d961c32 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0025 byte(s)
+ 44 .V PC=0023:77b07c7e Ret=77b07c4e Frame=0019ffdc Stack=0019ff88
+    Parameters (0xffffffff 0x77b288d7 0x00000000 0x00000000)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0286 byte(s)
+ 45 .V PC=0023:77b07c4e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x0052cb00 0x0023f000 0x00000000 0x78746341)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0238 byte(s)
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: abr. 5 2021 11:42
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: oct. 7 2003 14:57
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Create File (W1) - Name: C:\Users\Ulises\Desktop\programacion issd\desempeo9.java - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: 130588 - Name: C:\Users\Ulises\Desktop\programacion issd\desempeo9.java
+    Set New Text (1) - Text: 2588e08 - size: 340
+    Set New Text (2) - sz:20:320 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+    Open File (2) - fileno: 0 - sizeptr: 0
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 130588 - Ex: 1 - Args: 0 - Step: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Don't compile Console.java - Console.java older than Console.class
+    Don't compile ConsoleParent.java - ConsoleParent.java older than ConsoleParent.class
+    Don't compile FatalError.java - FatalError.java older than FatalError.class
+    Don't compile CloseableDialog.java - CloseableDialog.java older than CloseableDialog.class
+    Don't compile Message.java - Message.java older than Message.class
+    Don't compile ConsoleCanvas.java - ConsoleCanvas.java older than ConsoleCanvas.class
+    Don't compile SavePrint.java - SavePrint.java older than SavePrint.class
+    Don't compile SavePrint$Message.java - No SavePrint$Message.java
+    Don't compile SavePrint$Status.java - No SavePrint$Status.java
+    Don't compile DrawGraphics.java - DrawGraphics.java older than DrawGraphics.class
+    Don't compile ConsoleFrame.java - ConsoleFrame.java older than ConsoleFrame.class
+    Don't compile ConsoleEdges.java - ConsoleEdges.java older than ConsoleEdges.class
+    Don't compile ConsoleCanvasGraphics.java - ConsoleCanvasGraphics.java older than ConsoleCanvasGraphics.class
+    Jikes compiling Desempeo9
+
+
+Registers
+  EAX=00000000  EBX=00408A15  ECX=00000000  EDX=0019A538  ESI=0019A60C
+  EDI=0019A560  EBP=0019A4EC  ESP=0019A4E8  EIP=004C58C1  FLG=00010246
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Program Files (x86)\Ready to Program\Ready.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\System32\KERNEL32.DLL
+    C:\Windows\System32\KERNELBASE.dll
+    C:\Windows\System32\USER32.dll
+    C:\Windows\System32\win32u.dll
+    C:\Windows\System32\GDI32.dll
+    C:\Windows\System32\gdi32full.dll
+    C:\Windows\System32\msvcp_win.dll
+    C:\Windows\System32\ucrtbase.dll
+    C:\Windows\System32\comdlg32.dll
+    C:\Windows\System32\msvcrt.dll
+    C:\Windows\System32\combase.dll
+    C:\Windows\System32\RPCRT4.dll
+    C:\Windows\System32\shcore.dll
+    C:\Windows\System32\SHLWAPI.dll
+    C:\Windows\System32\SHELL32.dll
+    C:\Windows\System32\ADVAPI32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.844_none_89e26e970b35ab92\COMCTL32.dll
+    C:\Windows\System32\sechost.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\System32\IMM32.DLL
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\System32\MSCTF.dll
+    C:\Windows\System32\OLEAUT32.dll
+    C:\Program Files (x86)\Ready to Program\Support\Bin\edjdll.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\System32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\textinputframework.dll
+    C:\Windows\System32\CoreUIComponents.dll
+    C:\Windows\System32\CoreMessaging.dll
+    C:\Windows\System32\WS2_32.dll
+    C:\Windows\SYSTEM32\ntmarta.dll
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\TextShaping.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\net.dll
+    C:\Windows\system32\napinsp.dll
+    C:\Windows\system32\pnrpnsp.dll
+    C:\Windows\system32\wshbth.dll
+    C:\Windows\system32\NLAapi.dll
+    C:\Windows\SYSTEM32\IPHLPAPI.DLL
+    C:\Windows\System32\mswsock.dll
+    C:\Windows\SYSTEM32\DNSAPI.dll
+    C:\Windows\System32\NSI.dll
+    C:\Windows\System32\winrnr.dll
+    C:\Windows\System32\fwpuclnt.dll
+    C:\Windows\System32\bcrypt.dll
+    C:\Windows\System32\rasadhlp.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_11adecdf30011423\comctl32.DLL
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:004c58c1 Ret=004c58a0 Frame=0019a4ec Stack=0019a4e8
+    Parameters (0x0019a538 0x00000000 0x0000005c 0x00000003)
+    src_jikes\error.cpp, PrintFile (), Line 0813+0005 byte(s)
+  1 .V PC=0023:004c58a0 Ret=004c55df Frame=0019a508 Stack=0019a4f4
+    Parameters (0x07c8e9c4 0x0019a538 0x00000033 0x0000005c)
+    src_jikes\error.cpp, FormatFile (), Line 0845+0030 byte(s)
+  2 .V PC=0023:004c55df Ret=004c5ad3 Frame=0019a56c Stack=0019a510
+    Parameters (0x07c8e9c4 0x0019a60c 0xcccccccc 0x09b9b5c0)
+    src_jikes\error.cpp, SemanticError::FormatError (), Line 0922+0036 byte(s)
+  3 .V PC=0023:004c5ad3 Ret=004c5437 Frame=0019a584 Stack=0019a574
+    Parameters (0x00000000 0x0019a604 0xcccccccc 0x00607540)
+    src_jikes\error.cpp, SemanticError::reportError (), Line 0954+0000 byte(s)
+  4 .V PC=0023:004c5437 Ret=004c39ae Frame=0019a5cc Stack=0019a58c
+    Parameters (0x0019a6d0 0xcccccccc 0xcccccccc 0xcccccccc)
+    src_jikes\error.cpp, SemanticError::PrintMessages (), Line 0772+0000 byte(s)
+  5 .V PC=0023:004c39ae Ret=0049463c Frame=0019a610 Stack=0019a5d4
+    Parameters (0x0258cf18 0x025a9370 0x0019a6dc 0x004943d3)
+    src_jikes\error.cpp, Semantic::PrintMessages (), Line 0048+0038 byte(s)
+  6 .V PC=0023:0049463c Ret=004943d3 Frame=0019a620 Stack=0019a618
+    Parameters (0x07b9d718 0x0019a858 0x0019a8b0 0xcccccccc)
+    src_jikes\control.cpp, Control::CleanUp (), Line 1516+0000 byte(s)
+  7 .V PC=0023:004943d3 Ret=00493864 Frame=0019a6dc Stack=0019a628
+    Parameters (0x025a8590 0x0258cf18 0x00000000 0x0019a864)
+    src_jikes\control.cpp, Control::ProcessBodies (), Line 1437+0000 byte(s)
+  8 .V PC=0023:00493864 Ret=00491a91 Frame=0019a6f0 Stack=0019a6e4
+    Parameters (0x07b9d718 0x0019d940 0x0019a8b0 0xcccccccc)
+    src_jikes\control.cpp, Control::ProcessFile (), Line 1133+0000 byte(s)
+  9 .V PC=0023:00491a91 Ret=004eb449 Frame=0019a864 Stack=0019a6f8
+    Parameters (0x0258c9d0 0x0258cc60 0xcccccccc 0xcccccccc)
+    src_jikes\control.cpp, Control::Control (), Line 0289+0000 byte(s)
+ 10 .V PC=0023:004eb449 Ret=00420c6e Frame=0019a8a4 Stack=0019a86c
+    Parameters (0x0258c9d0 0x00130588 0xcccccccc 0x02588ec0)
+    src_jikes\jikesapi.cpp, JikesAPI::compile (), Line 0213+0048 byte(s)
+ 11 .V PC=0023:00420c6e Ret=00430e8f Frame=0019a8d0 Stack=0019a8ac
+    Parameters (0x00000009 0x0019acfc 0x0019dda4 0xcccccccc)
+    src\edjikes.cpp, EdJikes_Compile (), Line 0226+0017 byte(s)
+ 12 .V PC=0023:00430e8f Ret=0040867f Frame=0019d940 Stack=0019a8d8
+    Parameters (0x00130588 0x02589a60 0x00000000 0xcccccccc)
+    src\edrun.c, EdRun_Compile (), Line 0701+0014 byte(s)
+ 13 .V PC=0023:0040867f Ret=0040b0eb Frame=0019d964 Stack=0019d948
+    Parameters (0x00130588 0x00000001 0x00000000 0x00000000)
+    src\eddisp.c, EdDisp_Run (), Line 1730+0023 byte(s)
+ 14 .V PC=0023:0040b0eb Ret=004090f1 Frame=0019dda4 Stack=0019d96c
+    Parameters (0x00130588 0x00000579 0x00000111 0x00130588)
+    src\eddisp.c, MyCommandHandler (), Line 3288+0015 byte(s)
+ 15 .V PC=0023:004090f1 Ret=00408a70 Frame=0019de04 Stack=0019ddac
+    Parameters (0x00130588 0x00000111 0x00000579 0x00000001)
+    src\eddisp.c, MyCommonMessageHandler (), Line 3487+0019 byte(s)
+ 16 .V PC=0023:00408a70 Ret=7701ef5b Frame=0019de2c Stack=0019de0c
+    Parameters (0x00130588 0x00000111 0x00000579 0x00000001)
+    src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1962+0025 byte(s)
+ 17 .V PC=0023:7701ef5b Ret=77015eca Frame=0019de58 Stack=0019de34
+    Parameters (0x00408a15 0x00130588 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 18 .V PC=0023:77015eca Ret=770152a9 Frame=0019df3c Stack=0019de60
+    Parameters (0x00408a15 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 19 .V PC=0023:770152a9 Ret=770021d9 Frame=0019dfa0 Stack=0019df44
+    Parameters (0x011bf9b0 0x00000000 0x00000001 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 20 .V PC=0023:770021d9 Ret=004488da Frame=0019dfbc Stack=0019dfa8
+    Parameters (0x00130588 0x00000111 0x00000579 0x00000001)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 21 .V PC=0023:004488da Ret=7701ef5b Frame=0019dff4 Stack=0019dfc4
+    Parameters (0x00170576 0x00000111 0x00000579 0x00100562)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1454+0032 byte(s)
+ 22 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e020 Stack=0019dffc
+    Parameters (0x00448681 0x00170576 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 23 .V PC=0023:77015eca Ret=770152a9 Frame=0019e104 Stack=0019e028
+    Parameters (0x00448681 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 24 .V PC=0023:770152a9 Ret=770021d9 Frame=0019e168 Stack=0019e10c
+    Parameters (0x011a2670 0x00000000 0x00100562 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 25 .V PC=0023:770021d9 Ret=00403c69 Frame=0019e184 Stack=0019e170
+    Parameters (0x00170576 0x00000111 0x00000579 0x00100562)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 26 .V PC=0023:00403c69 Ret=7701ef5b Frame=0019e20c Stack=0019e18c
+    Parameters (0x001d053a 0x00000111 0x00000579 0x00100562)
+    src\edbbar.c, MyButtonBarWindowProcedure (), Line 0579+0041 byte(s)
+ 27 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e238 Stack=0019e214
+    Parameters (0x00403aa5 0x001d053a 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 28 .V PC=0023:77015eca Ret=770152a9 Frame=0019e31c Stack=0019e240
+    Parameters (0x00403aa5 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 29 .V PC=0023:770152a9 Ret=770138ef Frame=0019e380 Stack=0019e324
+    Parameters (0x011b1950 0x00000000 0x00100562 0x00000000)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 30 .V PC=0023:770138ef Ret=7703836b Frame=0019e3a4 Stack=0019e388
+    Parameters (0x001d053a 0x00000111 0x00000579 0x00100562)
+    Unknown module, SendMessageW() + 0111 byte(s)
+ 31 .V PC=0023:7703836b Ret=77038070 Frame=0019e3c8 Stack=0019e3ac
+    Parameters (0x011b9220 0x00000000 0x00000000 0x00b33240)
+    Unknown module, LoadCursorFromFileW() + 7675 byte(s)
+ 32 .V PC=0023:77038070 Ret=77037578 Frame=0019e3f0 Stack=0019e3d0
+    Parameters (0x00b33240 0x00000000 0x011b9220 0x00000202)
+    Unknown module, LoadCursorFromFileW() + 6912 byte(s)
+ 33 .V PC=0023:77037578 Ret=77036a12 Frame=0019e490 Stack=0019e3f8
+    Parameters (0x011b9220 0x00000000 0x00000202 0x00000000)
+    Unknown module, LoadCursorFromFileW() + 4104 byte(s)
+ 34 .V PC=0023:77036a12 Ret=7701ef5b Frame=0019e4bc Stack=0019e498
+    Parameters (0x00100562 0x00000202 0x00000000 0x0006000f)
+    Unknown module, LoadCursorFromFileW() + 1186 byte(s)
+ 35 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e4e8 Stack=0019e4c4
+    Parameters (0x770369c0 0x00100562 0x00000202 0x00000000)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 36 .V PC=0023:77015eca Ret=77013c3a Frame=0019e5cc Stack=0019e4f0
+    Parameters (0xb008c930 0x00007ff9 0x00000202 0x00000000)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 37 .V PC=0023:77013c3a Ret=77005d80 Frame=0019e640 Stack=0019e5d4
+    Parameters (0x0019e658 0x00403225 0x0019e668 0x0019e664)
+    Unknown module, DispatchMessageW() + 0586 byte(s)
+ 38 .V PC=0023:77005d80 Ret=00403225 Frame=0019e648 Stack=0019e648
+    Parameters (0x0019e668 0x0019e664 0x0019e688 0x00403190)
+    Unknown module, DispatchMessageA() + 0016 byte(s)
+ 39 .V PC=0023:00403225 Ret=00403190 Frame=0019e658 Stack=0019e650
+    Parameters (0x0019e668 0x0019e690 0x00100562 0x00000202)
+    src\ed.c, MyProcessMessage (), Line 1848+0012 byte(s)
+ 40 .V PC=0023:00403190 Ret=0040170f Frame=0019e688 Stack=0019e660
+    Parameters (0x0052cb00 0x0052cb00 0xcccccccc 0xcccccccc)
+    src\ed.c, MyProcessEvents (), Line 1818+0009 byte(s)
+ 41 .V PC=0023:0040170f Ret=0052cc26 Frame=0019fee0 Stack=0019e690
+    Parameters (0x00400000 0x00000000 0x00ac36b4 0x00000001)
+    src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 42 .V PC=0023:0052cc26 Ret=7642fa29 Frame=0019ff70 Stack=0019fee8
+    Parameters (0x0038a000 0x7642fa10 0x0019ffdc 0x77b07c7e)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 43 .V PC=0023:7642fa29 Ret=77b07c7e Frame=0019ff80 Stack=0019ff78
+    Parameters (0x0038a000 0xdc8b8315 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0025 byte(s)
+ 44 .V PC=0023:77b07c7e Ret=77b07c4e Frame=0019ffdc Stack=0019ff88
+    Parameters (0xffffffff 0x77b288b8 0x00000000 0x00000000)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0286 byte(s)
+ 45 .V PC=0023:77b07c4e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x0052cb00 0x0038a000 0x00000000 0x78746341)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0238 byte(s)
+
+------------------------------------------------------
+*** ENVIRONMENT CRASH ***
+
+Date: abr. 5 2021 11:42
+
+File Name: C:\Program Files (x86)\Ready to Program\Ready.exe
+Version: 1.7.1  [11]
+File Size: 2908199
+File Date: oct. 7 2003 14:57
+Operating System: After Windows XP
+JVM: Ready Built-in JRE (1.4.2 or later)
+"assert" Statements: disabled
+
+
+Cause of Crash: Access Violation
+
+Previous Operations:
+    Create File (W1) - Name: C:\Users\Ulises\Desktop\programacion issd\desempeo9.java - Skel: 0
+  CMD: WM_CREATE (W)
+  CMD: WM_CREATE (D)
+  CMD: WM_ACTIVATE (W)
+    Open File (1) - Window: 180532 - Name: C:\Users\Ulises\Desktop\programacion issd\desempeo9.java
+    Set New Text (1) - Text: 2568e08 - size: 340
+    Set New Text (2) - sz:20:320 - slFr:0 - slTo:0 - nlA:0
+    Line Starts: 17:265 18:312 19:315 20:320
+    Open File (2) - fileno: 0 - sizeptr: 0
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 180532 - Ex: 1 - Args: 0 - Step: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Jikes: Issued 1 system warning:
+    Find Next Error (1) - Text: 180532 - Activate: 1
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_SETFOCUS (W)
+  CMD: COMMAND_RUN
+    Run (1) - Window: 180532 - Ex: 1 - Args: 0 - Step: 0
+  CMD: WM_ACTIVATE (W)
+  CMD: WM_ACTIVATE (W)
+    Don't compile Console.java - Console.java older than Console.class
+    Don't compile ConsoleParent.java - ConsoleParent.java older than ConsoleParent.class
+    Don't compile FatalError.java - FatalError.java older than FatalError.class
+    Don't compile CloseableDialog.java - CloseableDialog.java older than CloseableDialog.class
+    Don't compile Message.java - Message.java older than Message.class
+    Don't compile ConsoleCanvas.java - ConsoleCanvas.java older than ConsoleCanvas.class
+    Don't compile SavePrint.java - SavePrint.java older than SavePrint.class
+    Don't compile SavePrint$Message.java - No SavePrint$Message.java
+    Don't compile SavePrint$Status.java - No SavePrint$Status.java
+    Don't compile DrawGraphics.java - DrawGraphics.java older than DrawGraphics.class
+    Don't compile ConsoleFrame.java - ConsoleFrame.java older than ConsoleFrame.class
+    Don't compile ConsoleEdges.java - ConsoleEdges.java older than ConsoleEdges.class
+    Don't compile ConsoleCanvasGraphics.java - ConsoleCanvasGraphics.java older than ConsoleCanvasGraphics.class
+    Jikes compiling Desempeo9
+
+
+Registers
+  EAX=00000000  EBX=00408A15  ECX=00000000  EDX=0019A538  ESI=0019A60C
+  EDI=0019A560  EBP=0019A4EC  ESP=0019A4E8  EIP=004C58C1  FLG=00010246
+  CS=0023  DS=002B  SS=002B  ES=002B  FS=0053  GS=002B
+
+List of Modules: 
+    C:\Program Files (x86)\Ready to Program\Ready.exe
+    C:\Windows\SYSTEM32\ntdll.dll
+    C:\Windows\System32\KERNEL32.DLL
+    C:\Windows\System32\KERNELBASE.dll
+    C:\Windows\System32\USER32.dll
+    C:\Windows\System32\win32u.dll
+    C:\Windows\System32\GDI32.dll
+    C:\Windows\System32\gdi32full.dll
+    C:\Windows\System32\msvcp_win.dll
+    C:\Windows\System32\ucrtbase.dll
+    C:\Windows\System32\comdlg32.dll
+    C:\Windows\System32\msvcrt.dll
+    C:\Windows\System32\combase.dll
+    C:\Windows\System32\RPCRT4.dll
+    C:\Windows\System32\shcore.dll
+    C:\Windows\System32\SHLWAPI.dll
+    C:\Windows\System32\SHELL32.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.19041.844_none_89e26e970b35ab92\COMCTL32.dll
+    C:\Windows\System32\ADVAPI32.dll
+    C:\Windows\System32\sechost.dll
+    C:\Windows\SYSTEM32\WINMM.dll
+    C:\Windows\SYSTEM32\VERSION.dll
+    C:\Windows\System32\IMM32.DLL
+    C:\Windows\system32\uxtheme.dll
+    C:\Windows\System32\MSCTF.dll
+    C:\Windows\System32\OLEAUT32.dll
+    C:\Program Files (x86)\Ready to Program\Support\Bin\edjdll.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\client\jvm.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\hpi.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\verify.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\java.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\zip.dll
+    C:\Windows\SYSTEM32\kernel.appcore.dll
+    C:\Windows\System32\bcryptPrimitives.dll
+    C:\Windows\SYSTEM32\textinputframework.dll
+    C:\Windows\System32\CoreUIComponents.dll
+    C:\Windows\System32\CoreMessaging.dll
+    C:\Windows\System32\WS2_32.dll
+    C:\Windows\SYSTEM32\ntmarta.dll
+    C:\Windows\SYSTEM32\wintypes.dll
+    C:\Windows\SYSTEM32\TextShaping.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\dt_shmem.dll
+    C:\Program Files (x86)\Ready to Program\Support\jre142_01\bin\net.dll
+    C:\Windows\system32\napinsp.dll
+    C:\Windows\system32\pnrpnsp.dll
+    C:\Windows\system32\wshbth.dll
+    C:\Windows\system32\NLAapi.dll
+    C:\Windows\SYSTEM32\IPHLPAPI.DLL
+    C:\Windows\System32\mswsock.dll
+    C:\Windows\SYSTEM32\DNSAPI.dll
+    C:\Windows\System32\NSI.dll
+    C:\Windows\System32\winrnr.dll
+    C:\Windows\System32\fwpuclnt.dll
+    C:\Windows\System32\bcrypt.dll
+    C:\Windows\System32\rasadhlp.dll
+    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_11adecdf30011423\comctl32.DLL
+    C:\Windows\SYSTEM32\dbghelp.dll
+
+  0 .V PC=0023:004c58c1 Ret=004c58a0 Frame=0019a4ec Stack=0019a4e8
+    Parameters (0x0019a538 0x00000000 0x0000005c 0x00000003)
+    src_jikes\error.cpp, PrintFile (), Line 0813+0005 byte(s)
+  1 .V PC=0023:004c58a0 Ret=004c55df Frame=0019a508 Stack=0019a4f4
+    Parameters (0x078d790c 0x0019a538 0x00000033 0x0000005c)
+    src_jikes\error.cpp, FormatFile (), Line 0845+0030 byte(s)
+  2 .V PC=0023:004c55df Ret=004c5ad3 Frame=0019a56c Stack=0019a510
+    Parameters (0x078d790c 0x0019a60c 0xcccccccc 0x09b8f878)
+    src_jikes\error.cpp, SemanticError::FormatError (), Line 0922+0036 byte(s)
+  3 .V PC=0023:004c5ad3 Ret=004c5437 Frame=0019a584 Stack=0019a574
+    Parameters (0x00000000 0x0019a604 0xcccccccc 0x00607540)
+    src_jikes\error.cpp, SemanticError::reportError (), Line 0954+0000 byte(s)
+  4 .V PC=0023:004c5437 Ret=004c39ae Frame=0019a5cc Stack=0019a58c
+    Parameters (0x0019a6d0 0xcccccccc 0xcccccccc 0xcccccccc)
+    src_jikes\error.cpp, SemanticError::PrintMessages (), Line 0772+0000 byte(s)
+  5 .V PC=0023:004c39ae Ret=0049463c Frame=0019a610 Stack=0019a5d4
+    Parameters (0x0263e998 0x078d7078 0x0019a6dc 0x004943d3)
+    src_jikes\error.cpp, Semantic::PrintMessages (), Line 0048+0038 byte(s)
+  6 .V PC=0023:0049463c Ret=004943d3 Frame=0019a620 Stack=0019a618
+    Parameters (0x077c7fa8 0x0019a858 0x0019a8b0 0xcccccccc)
+    src_jikes\control.cpp, Control::CleanUp (), Line 1516+0000 byte(s)
+  7 .V PC=0023:004943d3 Ret=00493864 Frame=0019a6dc Stack=0019a628
+    Parameters (0x0258a3c0 0x0263e998 0x00000000 0x0019a864)
+    src_jikes\control.cpp, Control::ProcessBodies (), Line 1437+0000 byte(s)
+  8 .V PC=0023:00493864 Ret=00491a91 Frame=0019a6f0 Stack=0019a6e4
+    Parameters (0x077c7fa8 0x0019d940 0x0019a8b0 0xcccccccc)
+    src_jikes\control.cpp, Control::ProcessFile (), Line 1133+0000 byte(s)
+  9 .V PC=0023:00491a91 Ret=004eb449 Frame=0019a864 Stack=0019a6f8
+    Parameters (0x07bd0e88 0x0256c2b0 0xcccccccc 0xcccccccc)
+    src_jikes\control.cpp, Control::Control (), Line 0289+0000 byte(s)
+ 10 .V PC=0023:004eb449 Ret=00420c6e Frame=0019a8a4 Stack=0019a86c
+    Parameters (0x07bd0e88 0x00180532 0xcccccccc 0x07bd0e18)
+    src_jikes\jikesapi.cpp, JikesAPI::compile (), Line 0213+0048 byte(s)
+ 11 .V PC=0023:00420c6e Ret=00430e8f Frame=0019a8d0 Stack=0019a8ac
+    Parameters (0x00000009 0x0019acfc 0x0019dda4 0xcccccccc)
+    src\edjikes.cpp, EdJikes_Compile (), Line 0226+0017 byte(s)
+ 12 .V PC=0023:00430e8f Ret=0040867f Frame=0019d940 Stack=0019a8d8
+    Parameters (0x00180532 0x025695e8 0x00000000 0xcccccccc)
+    src\edrun.c, EdRun_Compile (), Line 0701+0014 byte(s)
+ 13 .V PC=0023:0040867f Ret=0040b0eb Frame=0019d964 Stack=0019d948
+    Parameters (0x00180532 0x00000001 0x00000000 0x00000000)
+    src\eddisp.c, EdDisp_Run (), Line 1730+0023 byte(s)
+ 14 .V PC=0023:0040b0eb Ret=004090f1 Frame=0019dda4 Stack=0019d96c
+    Parameters (0x00180532 0x00000579 0x00000111 0x00180532)
+    src\eddisp.c, MyCommandHandler (), Line 3288+0015 byte(s)
+ 15 .V PC=0023:004090f1 Ret=00408a70 Frame=0019de04 Stack=0019ddac
+    Parameters (0x00180532 0x00000111 0x00000579 0x00000001)
+    src\eddisp.c, MyCommonMessageHandler (), Line 3487+0019 byte(s)
+ 16 .V PC=0023:00408a70 Ret=7701ef5b Frame=0019de2c Stack=0019de0c
+    Parameters (0x00180532 0x00000111 0x00000579 0x00000001)
+    src\eddisp.c, MyTextDisplayWindowProcedure (), Line 1962+0025 byte(s)
+ 17 .V PC=0023:7701ef5b Ret=77015eca Frame=0019de58 Stack=0019de34
+    Parameters (0x00408a15 0x00180532 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 18 .V PC=0023:77015eca Ret=770152a9 Frame=0019df3c Stack=0019de60
+    Parameters (0x00408a15 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 19 .V PC=0023:770152a9 Ret=770021d9 Frame=0019dfa0 Stack=0019df44
+    Parameters (0x010af9b0 0x00000000 0x00000001 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 20 .V PC=0023:770021d9 Ret=004488da Frame=0019dfbc Stack=0019dfa8
+    Parameters (0x00180532 0x00000111 0x00000579 0x00000001)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 21 .V PC=0023:004488da Ret=7701ef5b Frame=0019dff4 Stack=0019dfc4
+    Parameters (0x001f053a 0x00000111 0x00000579 0x000805fe)
+    src\edwin.c, MyEditorWindowProcedure (), Line 1454+0032 byte(s)
+ 22 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e020 Stack=0019dffc
+    Parameters (0x00448681 0x001f053a 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 23 .V PC=0023:77015eca Ret=770152a9 Frame=0019e104 Stack=0019e028
+    Parameters (0x00448681 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 24 .V PC=0023:770152a9 Ret=770021d9 Frame=0019e168 Stack=0019e10c
+    Parameters (0x010acbf0 0x00000000 0x000805fe 0x00000001)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 25 .V PC=0023:770021d9 Ret=00403c69 Frame=0019e184 Stack=0019e170
+    Parameters (0x001f053a 0x00000111 0x00000579 0x000805fe)
+    Unknown module, SendMessageA() + 0073 byte(s)
+ 26 .V PC=0023:00403c69 Ret=7701ef5b Frame=0019e20c Stack=0019e18c
+    Parameters (0x000c0606 0x00000111 0x00000579 0x000805fe)
+    src\edbbar.c, MyButtonBarWindowProcedure (), Line 0579+0041 byte(s)
+ 27 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e238 Stack=0019e214
+    Parameters (0x00403aa5 0x000c0606 0x00000111 0x00000579)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 28 .V PC=0023:77015eca Ret=770152a9 Frame=0019e31c Stack=0019e240
+    Parameters (0x00403aa5 0x00000000 0x00000111 0x00000579)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 29 .V PC=0023:770152a9 Ret=770138ef Frame=0019e380 Stack=0019e324
+    Parameters (0x010ac3b0 0x00000000 0x000805fe 0x00000000)
+    Unknown module, GetSystemMetricsForDpi() + 5193 byte(s)
+ 30 .V PC=0023:770138ef Ret=7703836b Frame=0019e3a4 Stack=0019e388
+    Parameters (0x000c0606 0x00000111 0x00000579 0x000805fe)
+    Unknown module, SendMessageW() + 0111 byte(s)
+ 31 .V PC=0023:7703836b Ret=77038070 Frame=0019e3c8 Stack=0019e3ac
+    Parameters (0x010a9370 0x00000000 0x00000000 0x008260f0)
+    Unknown module, LoadCursorFromFileW() + 7675 byte(s)
+ 32 .V PC=0023:77038070 Ret=77037578 Frame=0019e3f0 Stack=0019e3d0
+    Parameters (0x008260f0 0x00000000 0x010a9370 0x00000202)
+    Unknown module, LoadCursorFromFileW() + 6912 byte(s)
+ 33 .V PC=0023:77037578 Ret=77036a12 Frame=0019e490 Stack=0019e3f8
+    Parameters (0x010a9370 0x00000000 0x00000202 0x00000000)
+    Unknown module, LoadCursorFromFileW() + 4104 byte(s)
+ 34 .V PC=0023:77036a12 Ret=7701ef5b Frame=0019e4bc Stack=0019e498
+    Parameters (0x000805fe 0x00000202 0x00000000 0x000b000a)
+    Unknown module, LoadCursorFromFileW() + 1186 byte(s)
+ 35 .V PC=0023:7701ef5b Ret=77015eca Frame=0019e4e8 Stack=0019e4c4
+    Parameters (0x770369c0 0x000805fe 0x00000202 0x00000000)
+    Unknown module, AddClipboardFormatListener() + 0075 byte(s)
+ 36 .V PC=0023:77015eca Ret=77013c3a Frame=0019e5cc Stack=0019e4f0
+    Parameters (0xb008c930 0x00007ff9 0x00000202 0x00000000)
+    Unknown module, GetClassLongW() + 1962 byte(s)
+ 37 .V PC=0023:77013c3a Ret=77005d80 Frame=0019e640 Stack=0019e5d4
+    Parameters (0x0019e658 0x00403225 0x0019e668 0x0019e664)
+    Unknown module, DispatchMessageW() + 0586 byte(s)
+ 38 .V PC=0023:77005d80 Ret=00403225 Frame=0019e648 Stack=0019e648
+    Parameters (0x0019e668 0x0019e664 0x0019e688 0x00403190)
+    Unknown module, DispatchMessageA() + 0016 byte(s)
+ 39 .V PC=0023:00403225 Ret=00403190 Frame=0019e658 Stack=0019e650
+    Parameters (0x0019e668 0x0019e690 0x000805fe 0x00000202)
+    src\ed.c, MyProcessMessage (), Line 1848+0012 byte(s)
+ 40 .V PC=0023:00403190 Ret=0040170f Frame=0019e688 Stack=0019e660
+    Parameters (0x0052cb00 0x0052cb00 0xcccccccc 0xcccccccc)
+    src\ed.c, MyProcessEvents (), Line 1818+0009 byte(s)
+ 41 .V PC=0023:0040170f Ret=0052cc26 Frame=0019fee0 Stack=0019e690
+    Parameters (0x00400000 0x00000000 0x007e36b4 0x00000001)
+    src\ed.c, WinMain (), Line 0470+0005 byte(s)
+ 42 .V PC=0023:0052cc26 Ret=7642fa29 Frame=0019ff70 Stack=0019fee8
+    Parameters (0x002f8000 0x7642fa10 0x0019ffdc 0x77b07c7e)
+    crt0.c, WinMainCRTStartup (), Line 0198+0054 byte(s)
+ 43 .V PC=0023:7642fa29 Ret=77b07c7e Frame=0019ff80 Stack=0019ff78
+    Parameters (0x002f8000 0x514ebdee 0x00000000 0x00000000)
+    Unknown module, BaseThreadInitThunk() + 0025 byte(s)
+ 44 .V PC=0023:77b07c7e Ret=77b07c4e Frame=0019ffdc Stack=0019ff88
+    Parameters (0xffffffff 0x77b288de 0x00000000 0x00000000)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0286 byte(s)
+ 45 .V PC=0023:77b07c4e Ret=00000000 Frame=0019ffec Stack=0019ffe4
+    Parameters (0x0052cb00 0x002f8000 0x00000000 0x78746341)
+    Unknown module, RtlGetAppContainerNamedObjectPath() + 0238 byte(s)
+
+------------------------------------------------------
